@@ -54,7 +54,7 @@ export default function PriceComparePage() {
           <h2>비교할 아이템을 골라주세요.</h2>
           <p>상품을 선택하면 예시 판매처 가격이 함께 바뀝니다.</p>
         </div>
-        <span className="demo-pill">시연용 예시 데이터</span>
+        <span className="demo-pill">시연용 예시 데이터</span> 
       </div>
 
       <div className="compare-product-picker" aria-label="비교할 상품 선택">
