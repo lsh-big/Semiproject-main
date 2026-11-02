@@ -3,7 +3,7 @@ import BrandMark from './BrandMark.jsx'
 import Icon from './Icon.jsx'
 
 const nav = [
-  ['스타일 추천', '#/outfits'], ['나의 옷장', '#/wardrobe'], ['가격 인사이트', '#/price'],
+  ['스타일 추천', '#/outfits'], ['시즌 코디', '#/compare'], ['나의 옷장', '#/wardrobe'], ['가격 인사이트', '#/price'],
 ]
 
 export default function Header({ onAuth }) {

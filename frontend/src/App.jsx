@@ -8,7 +8,7 @@ import StyleProfilePage from './pages/StyleProfilePage.jsx'
 import OutfitPage from './pages/OutfitPage.jsx'
 import WardrobePage from './pages/WardrobePage.jsx'
 import PriceTimingPage from './pages/PriceTimingPage.jsx'
-import PriceComparePage from './pages/PriceComparePage.jsx'
+import SeasonalOutfitPage from './pages/SeasonalOutfitPage.jsx'
 
 function readRoute() {
   const value = window.location.hash.replace(/^#/, '')
@@ -21,7 +21,7 @@ const pages = {
   '/outfits': OutfitPage,
   '/wardrobe': WardrobePage,
   '/price': PriceTimingPage,
-  '/compare': PriceComparePage,
+  '/compare': SeasonalOutfitPage,
 }
 
 export default function App() {

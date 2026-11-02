@@ -67,6 +67,10 @@ uvicorn app.main:app --reload
 
 Set `DATABASE_URL` and `SECRET_KEY` in `backend/.env` before connecting real accounts or data. The example prices and product images are presentation data until the team connects approved sources and TiDB.
 
+### Mock.shop sample products
+
+The seasonal outfit page currently curates winter outfits using apparel, international fashion, menswear, accessories, snowwear, outerwear, boutique, retail, outdoor, and streetwear catalogs from [Mock.shop](https://mock.shop/)'s public Shopify Storefront API without API keys or backend setup. Gender labels in product titles are respected, age-group style keywords influence curation, and each sample product is assigned only once across all age and gender looks when the catalog has enough eligible inventory. Mock.shop does not provide reliable age or sizing metadata, so age is a style-based recommendation rather than a size or fit guarantee. Its outfit board uses the same sample products shown in each recommendation, and sample links open the corresponding Mock.shop reference storefront. These are development placeholders, not actual store listings: displayed prices are in USD, and products, inventory, and product pages are not live purchasing data. Do not use this dataset for live pricing, inventory, or buying recommendations.
+
 ## Team ownership
 
 - **Song Seong-geun (PM):** body/color styling, wardrobe and outfit recommendation APIs; integration and deliverables.

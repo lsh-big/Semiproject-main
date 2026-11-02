@@ -7,7 +7,7 @@ import { mockProducts } from '../services/api.js'
 
 const projects = [
   { number: '01', title: 'PERSONAL OUTFIT', korean: '취향 맞춤 코디', description: '체형, 좋아하는 색과 무드로\n오늘 나에게 가장 잘 어울리는 룩을 찾아요.', label: 'STYLE × AI', href: '#/outfits', image: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1050&q=85', color: 'plum' },
-  { number: '02', title: 'SMART COMPARISON', korean: '같은 상품, 한눈에 비교', description: '브랜드와 상품 옵션을 매칭해\n판매처별 가격을 보기 쉽게 모아드려요.', label: 'CRAWL × MATCH', href: '#/compare', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1050&q=85', color: 'clay' },
+  { number: '02', title: 'SEASONAL LOOKBOOK', korean: '나이와 취향에 맞는 계절 코디', description: '연령대와 성별을 선택하고\n지금 계절에 어울리는 코디와 아이템을 만나보세요.', label: 'AGE × SEASON × STYLE', href: '#/compare', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1050&q=85', color: 'clay' },
   { number: '03', title: 'PRICE MOMENT', korean: '스마트 구매 타이밍', description: '가격 이력을 차곡차곡 살펴\n조금 더 현명한 쇼핑의 순간을 찾아요.', label: 'RPA × PRICE DATA', href: '#/price', image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1050&q=85', color: 'olive' },
 ]
 
